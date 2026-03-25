@@ -61,7 +61,7 @@ if __name__=='__main__':
     ax2.hlines(0, 0, 1, colors='k', linestyles='dashed')
     ax2.vlines(bond_length, -15*epsilon, 20*epsilon, colors='k', linestyles='dashed')
 
-    savefile = './png/Lennard-Jones_force.png'
+    savefile = './png/Lennard-Jones.png'
     fig.savefig(savefile, dpi=300)
 
     plt.show()
